@@ -31,13 +31,24 @@ div>span{
 	padding-left:92px;
 }
 .tips{
-	position:absolute;
-	top:0;
-	left:50%;
-	margin-left:200px;
-	width:400px;
-	padding:5px;
-	border:1px solid #ccc;
+	position: absolute;
+    top: 2rem;
+    left: 50%;
+    margin-left: 200px;
+    width: 152px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    list-style: none;
+    border-top-right-radius: 80px;
+    background: #ffe;
+}
+.tips:before{
+	content:"";
+	width:100px;
+	height:100px;
+	border-top-right-radius:50px;
+	border-left:1px solid #ccc;
+	border-bottom:1px solid #ccc;
 }
 .main-content{
 	position:relative;
