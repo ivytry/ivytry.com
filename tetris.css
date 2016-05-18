@@ -71,7 +71,7 @@ div>span{
     border-radius: 10px;
     box-shadow:-2px 1px 0px rgba(20,20,20,0.5);
 }
-.tips li:first-child{
+.tips :first-child{
 	font-weight:normal;
 }
 .main-content{
