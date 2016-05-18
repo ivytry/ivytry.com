@@ -277,12 +277,15 @@ var rotate = function(){
 }
 
 var isStop = function(){
+	var stopBtn = document.getElementById("stop");
 	if(isPlaying == true){
 		isPlaying = false;
 		clearInterval(curTimer);
+		stopBtn.setAttribute("value","继续");
 	}else{
 		isPlaying = true;
 		curTimer = setInterval("moveDown()", 500/curSpeed);
+		stopBtn.setAttribute("value","暂停")
 	}
 }
 
