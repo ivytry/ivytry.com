@@ -31,35 +31,48 @@ div>span{
 	padding-left:92px;
 }
 .tips{
-	position: absolute;
+    position: absolute;
     top: 2rem;
     left: 50%;
     margin-left: 200px;
-    width: 150px;
-    padding: 20px;
+    width: 130px;
+    padding: 25px 10px 15px 25px;
     border: 1px solid #ccc;
     list-style: none;
-    border-top-right-radius: 80px;
+    border-top-right-radius: 60px;
     background: #ffe;
+    font-weight:bold;
+    box-shadow:0 3px 3px rgba(120,120,120,0.5);
+    transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
 }
 .tips:before{
-	content: "";
+    content: "";
     border-top-right-radius: 95px;
     border: 1px solid #ccc;
     background: #ffffef;
-    padding: 32px;
+    padding: 23px;
     position: absolute;
     top: 0;
-    right: 0
+    right: 0;
+    box-shadow:0 2px 2px rgba(120,120,120,0.3);
 }
 .tips:after{
-	content:"";
-	padding:5px;
-	border-radius:1px solid #ccc;
-	background:#aaa;
-	position:absolute;
-	top:0;
-	left:0;
+    content: "";
+    padding: 5px;
+    border: 5px solid #ccc;
+    background: #333;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 10px;
+    box-shadow:-2px 1px 0px rgba(20,20,20,0.5);
+}
+.tips li:first{
+	font-weight:normal;
 }
 .main-content{
 	position:relative;
