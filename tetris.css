@@ -14,7 +14,7 @@ div>span{
 }
 
 .tetris-bg-box{
-	width:336px;
+	width:338px;
 	border:1px solid black;
 	background:#235;
 	overflow:hidden;
@@ -28,5 +28,5 @@ div>span{
 	float:right;
 }
 .p-l-108{
-	padding-left:108px;
+	padding-left:98px;
 }
