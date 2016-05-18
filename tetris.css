@@ -30,3 +30,15 @@ div>span{
 .p-l-108{
 	padding-left:92px;
 }
+.tips{
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:200px;
+	width:400px;
+	padding:5px;
+	border:1px solid #ccc;
+}
+.main-context{
+	position:relative;
+}
