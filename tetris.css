@@ -34,7 +34,7 @@ div>span{
     position: absolute;
     top: 2rem;
     left: 50%;
-    margin-left: 200px;
+    margin-left: 14rem;
     width: 130px;
     padding: 25px 10px 15px 25px;
     border: 1px solid #ccc;
@@ -71,7 +71,7 @@ div>span{
     border-radius: 10px;
     box-shadow:-2px 1px 0px rgba(20,20,20,0.5);
 }
-.tips li:first{
+.tips:first-child{
 	font-weight:normal;
 }
 .main-content{
