@@ -1,0 +1,32 @@
+
+@font-size{
+	font-family: tmb;
+	src: url("DS-DOGIB.TTF") format("TrueType");
+}
+body>div{
+	font-size: 13pt;
+	padding-bottom: 8px;
+}
+div>span{
+	font-family: tmb;
+	font-size: 20pt;
+	color: white;
+}
+
+.tetris-bg-box{
+	width:336px;
+	border:1px solid black;
+	background:#235;
+	overflow:hidden;
+	color:#789;
+	margin:10px auto;
+}
+.bar-left{
+	float:left;
+}
+.bar-right{
+	float:right;
+}
+.p-l-108{
+	padding-left:108px;
+}
