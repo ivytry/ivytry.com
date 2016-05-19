@@ -1,10 +1,6 @@
 
 function changeBg(){
-	var bgColor = "";
-	for(var i=0; i<6; i++){
-		bgColor += "" + Math.round(Math.random()*9);
-	}
-	document.body.style.backgroundColor = "#" + bgColor;
+	document.body.style.backgroundColor = "#" + (~~(Math.random()*(1<<24))).toString(16);
 }
 
 var createCanvas = function(TETRIS_ROWS, TETRIS_COLS, CELL_SIZE, CELL_SIZE){
